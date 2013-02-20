@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/input_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:onClick="input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_1" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:onClick="input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_2" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:onClick="input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_3" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:onClick="input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_4" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:onClick="input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_5" />
+
+
+    
+        <Button
+        android:id="@+id/clean"
+        android:onClick="input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_clean" />
+
+</LinearLayout>
